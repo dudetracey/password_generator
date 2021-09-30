@@ -8,7 +8,7 @@ import string
 
 def password_generator():
     password = []
-    random_char_list = ['!', '@', '#', '$', '%', '&', '*', '(', ')', '+', '=']
+    random_char_list = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '+', '=']
     random_word_list = ['password', 'changeme', 'passwordpassword', '123456', '123456789', '12345678secret',
                         'Qwerty1', 'Password1', 'Abc123', '111111', '123123',
                         'Password123', '1asdasdasd']
