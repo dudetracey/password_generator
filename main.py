@@ -2,8 +2,7 @@
 # Write a password generator in Python - use a mix of lowercase, uppercase, numbers, and symbols.
 # The password generator needs to generate a new password every time the user asks for one.
 
-import random
-import string
+import random, string
 
 
 def password_generator():
